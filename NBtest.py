@@ -9,7 +9,7 @@ from sklearn.naive_bayes import GaussianNB
 from features import *
 
 # reading training data
-f = open('../data/training_data1.txt')
+f = open('training_data1.txt')
 urls1 = f.readlines()
 f.close()
 dim=16 # number of features
@@ -26,7 +26,7 @@ for i in range(size/2,size):
    target1[i]=1
 
 # reading testing data
-f = open('../data/testing_data1.txt')
+f = open('testing_data1.txt')
 urls2 = f.readlines()
 f.close()
 
